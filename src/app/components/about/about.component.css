@@ -1,0 +1,30 @@
+
+
+#title{display: flex;
+    flex-direction: column;
+}
+#title h2{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left:290px;
+}
+#title p{
+    margin-bottom: 0px;
+   
+}
+#imgs{
+    display: flex;
+}
+#imgName{
+    position: relative;
+    left: 8%;
+    width:65% ;
+    margin-bottom: 20px;
+
+}
+#imgSelf{
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 20%;
+    height: 20%;
+}

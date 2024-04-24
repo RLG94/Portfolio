@@ -1,8 +1,29 @@
+<header>
+<ul>
+    <li><a [routerLink]="['/about-me']" routerLinkActive="router-link-active" >About Me</a></li>
+    <li><a [routerLink]="['/projects']" routerLinkActive="router-link-active" >Projects</a></li>
+    <li id="logo"><img src="../assets/img/RL-Logo.png" alt="logo"></li>
+    <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact</a></li>
+    <li><a [routerLink]="['/socialMedia']" routerLinkActive="router-link-active" >Social Media</a></li>    
+</ul>
+</header>
 
-<router-outlet><router-outlet /> 
+
+
+<section id="content">
+ 
+
+ <router-outlet></router-outlet> 
+
+</section>
 
 
 
-<h1>Hola Angular</h1>
 
-<h2>Proyecto</h2>
+
+<footer>
+
+<p>Roberto Lago personal's portfolio</p>
+<p>Website made with Angular 17  <img src="../favicon.ico" alt="angIcon" id="iconNG"></p>
+
+</footer>
