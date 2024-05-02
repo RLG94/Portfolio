@@ -194,6 +194,7 @@ header ul li a:hover{
 }
 #lastP{
     padding-bottom: 25px;
+    
 }
 
 
@@ -208,14 +209,15 @@ footer{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   position: fixed;
+   position: relative;
+   bottom: 0;
    align-items: center;
-   bottom: -0.3%;
-   background:var(--support-color-1);/* linear-gradient(to bottom, #ffffff00 0%, #5D4037 10%); */
+   background:var(--support-color-1); /* linear-gradient(to bottom, #ffffff00 0%, #5D4037 10%); */
    color: var(--support-color-2);
    border-radius: 5px;
    height: 4.5%;
    border-top: 1px solid var(--support-color-4);
+   
 
 }
 footer p{
