@@ -1,3 +1,19 @@
+:root{
+    --main-color: #212121;
+    --second-color: #757575;
+    --support-color-1:#FFF9C4;
+    --support-color-2:#757575;
+    --support-color-3:#BDBDBD;
+    --support-color-4:#692424;
+ 
+    --text-color: #212121;
+ }
+ 
+
+
+
+
+
 h1{
    padding-top: 2%;
 }
@@ -10,6 +26,11 @@ h1{
     margin-bottom: 60px;
     padding-bottom: 20px;
     
+}
+#projects a{
+   text-decoration: none;
+   
+   color: var(--support-color-4);
 }
 .texts{
     margin-left: 10%;

@@ -60,8 +60,16 @@ em{
     color-scheme: light dark;
     font-family: Baskerville,serif ;    
 }
+body{
+    position: relative; 
+    margin: 0px; 
+    height: 100%;
+   min-height: 100vh;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+}
 
-body::after{
+:root body::after{
     content: "";  
     position: fixed;  
     top: 0;
@@ -76,11 +84,7 @@ body::after{
     z-index: -1;  
 
 }
-body{
 
-    margin: 0px; 
-    background-attachment: fixed;
-}
 .clearfix{
     float: none;
     clear: both;
@@ -209,13 +213,13 @@ footer{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   position: relative;
+   position:absolute;
    bottom: 0;
+   height: 32px;
    align-items: center;
    background:var(--support-color-1); /* linear-gradient(to bottom, #ffffff00 0%, #5D4037 10%); */
    color: var(--support-color-2);
    border-radius: 5px;
-   height: 4.5%;
    border-top: 1px solid var(--support-color-4);
    
 
@@ -231,11 +235,8 @@ footer p{
 footer #iconNG{
     width: 6.8%;
     margin-left: 10px;
-    
     margin-bottom: -4px;
-    
-  
-  
+
 }
 
 
