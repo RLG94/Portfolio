@@ -39,8 +39,10 @@ h1{
 
 .images img{
     display: flex;
+    align-items: center;
     width: 25%; 
     padding: none;
     margin: 0px auto;
+    margin-top: 4px;
     border: 2px solid black;
 }

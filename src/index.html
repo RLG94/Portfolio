@@ -6,8 +6,22 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/img/logo-letter.webp">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".slider").bxSlider({
+        mode: 'horizontal',
+      slideWidth: 600
+      });
+    });
+  </script>
 </head>
 <body>
+  
   <app-root></app-root>
 </body>
 </html>
