@@ -1,0 +1,39 @@
+
+body{
+    
+    z-index: 5000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100vh;
+   
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.menu{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone-menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+ }
+  
+  
+  .phone-menu .link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  .phone-menu .link:hover {
+    color: lightgray;
+  }
+  

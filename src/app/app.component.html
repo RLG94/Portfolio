@@ -1,10 +1,15 @@
 <header>
+
+   
 <ul>
-    <li><a [routerLink]="['/about-me']" routerLinkActive="router-link-active" >About Me</a></li>
-    <li><a [routerLink]="['/technologies']" routerLinkActive="router-link-active" >Technologies</a></li>   
-    <li id="logo"><img src="../assets/img/RL-Logo-Grey.png" alt="logo"></li>
-    <li><a [routerLink]="['/projects']" routerLinkActive="router-link-active" >My Projects</a></li>  
-    <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact Me</a></li>
+    
+    <li><a class="link" [routerLink]="['/about-me']" routerLinkActive="router-link-active" >About Me</a></li>
+    <li><a class="link" [routerLink]="['/technologies']" routerLinkActive="router-link-active" >Technologies</a></li>   
+    
+    <li><a class="link" [routerLink]="['/projects']" routerLinkActive="router-link-active" >My Projects</a></li>  
+    <li><a class="link" [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact Me</a></li>
+    <li id="cv"><a href="#">CV<i class="fa-solid fa-file-arrow-down icono"></i></a></li>
+    <li><a id="menuButton" #menuButton href=""><i class="fa-solid fa-bars"></i></a></li>
 </ul>
 
 </header>
@@ -18,13 +23,12 @@
 
 </section>
 
-
-
+<app-phone-menu *ngIf="showPhoneMenu"></app-phone-menu>
 
 
 <footer>
 
-<p>Roberto Lago personal's portfolio</p>
-<p>Website made with Angular 17  <img src="../favicon.ico" alt="angIcon" id="iconNG"></p>
+
+<p>Website made with Angular 17<img src="../favicon.ico" alt="angIcon" id="iconNG"></p>
 
 </footer>
