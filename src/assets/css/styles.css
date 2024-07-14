@@ -215,11 +215,11 @@ header .link:hover {
 #content {
     width: 70%;
     margin: 0px auto;
-    border-left: 12px solid var(--support-color-3);
-    border-right: 12px solid var(--support-color-3);
+    border-left: 3px solid var(--support-color-3);
+    border-right: 3px solid var(--support-color-3);
     box-shadow: 0 0 6px var(--second-color);
     background: #bdbdbdb4;
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
 }
 
